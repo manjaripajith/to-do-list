@@ -11,7 +11,7 @@ function addTask() {
 
   li.innerHTML = `
     <span onclick="toggleComplete(this)">${taskText}</span>
-    <button onclick="deleteTask(this)">❌</button>
+    <button onclick="deleteTask(this)">✔</button>
   `;
 
   document.getElementById("taskList").appendChild(li);
